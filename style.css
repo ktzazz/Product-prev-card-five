@@ -32,14 +32,44 @@ body{
 .main{
     background-color: white;
     height: auto;
-    max-width: 20rem;
+    max-width: 21rem;
     border-radius: .8rem;
     padding-block-end: 1.5rem;
 }
 
-picture{
-    display: block;
-    width: 100%; 
+.per{
+    border-top-left-radius: .8rem;
+    border-top-right-radius: .8rem;
+}
+
+section{
+    padding: 1.22rem 1.25rem 1.5rem 1.25rem;
+}
+
+h1{
+    font-family: var(--font-M);
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: .72rem;
+    letter-spacing: .38em;
+    color: var(--GrayishBlue);
+}
+
+h2{
+    font-family: var(--font-F);
+    color: var(--DarkBlue);
+    font-size: 2rem;
+    letter-spacing: -.5px;
+    word-spacing: .2rem;
+    line-height: 2rem;
+    margin-block-start: .8rem;
+    margin-block-end: .9rem;
+}
+
+p{
+    font-family: var(--font-M);
+    font-size: var(--font-size);
+    color: var(--GrayishBlue);
 }
 
 
