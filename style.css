@@ -63,13 +63,145 @@ h2{
     word-spacing: .2rem;
     line-height: 2rem;
     margin-block-start: .8rem;
-    margin-block-end: .9rem;
+    margin-block-end: 1rem;
 }
 
 p{
     font-family: var(--font-M);
     font-size: var(--font-size);
     color: var(--GrayishBlue);
+}
+
+.container{
+    margin-block-start: -5px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-inline-start: 1.5rem;
+    width: 15.3rem;
+    align-items: center;
+}
+
+.uno{
+    font-family: var(--font-F);
+    font-size: 2rem;
+    font-weight: var(--weight7);
+    color: var(--Darkcyan);
+}
+
+.dos{
+    font-family: var(--font-M);
+    font-size: .8rem;
+    color: var(--DarkBlue);
+    text-decoration: line-through;
+}
+
+.button-cont{
+    display: flex;
+    flex-direction: column;
+    margin-block-start: 1rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+button{
+    color: var(--White);
+    padding: .8rem;
+    width: 18rem;
+    border-style: none;
+    background-color: var(--Darkcyan);
+    font-family: var(--font-M);
+    font-weight: 600;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart{
+    padding-inline-end: .4rem;
+}
+
+button:hover{
+    background-color: var(--DarkBlue);
+}
+
+button:focus{
+    background-color: var(--DarkBlue);
+}
+
+
+.attribution{   
+    font-family: var(--font-M); 
+}
+
+footer{
+  position: absolute; /* Make the footer absolute */
+  bottom: 15px; /* Position it at the bottom */
+  left: 0; /* Align it to the left of the container */
+  width: 100%; 
+}
+
+@media (min-width:470px){
+     
+     .main{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 17.5rem;
+        height: 26.2rem;
+        max-width: 35rem;
+        border-radius: .8rem;
+        padding-block-end: 1.5rem;
+    }
+     
+     .per{
+        grid-column: 1 / 1;
+        width: 100%;
+        object-fit: cover;
+        border-top-left-radius: .8rem;
+        border-bottom-left-radius: .8rem;
+        border-top-right-radius: 0rem;
+    }
+
+     section{
+        padding: 2rem 2rem 1.5rem 1.7rem;
+    }
+     
+    h2{
+        line-height: 2.1rem;
+        margin-block-start: 1rem;
+        margin-block-end: 1.2rem;
+    }
+
+    p{
+        line-height: 1.3rem;
+    }
+
+
+    .container{
+        grid-column: 2/ 2;
+        margin-block-start:-14.8rem;
+    }
+
+    .button-cont{
+        grid-column: 2 / 2;
+        display: flex;
+        flex-direction: column;
+        margin-block-start: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+button{
+    margin-block-start: -8.5rem;
+    padding: .8rem;
+    width: 14.4rem;
+}
+
+.cart{
+    padding-inline-end: .65rem;
+}
+
 }
 
 
