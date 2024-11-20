@@ -124,6 +124,7 @@ button{
 
 button:hover{
     background-color: var(--DarkBlue);
+    cursor: pointer;
 }
 
 button:focus{
